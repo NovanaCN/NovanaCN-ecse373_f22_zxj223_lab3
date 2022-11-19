@@ -1,4 +1,4 @@
-# ecse373_f22_hxl1119_bags_and_playback
+# ecse373_f22_zxj223_bags_and_playback
 
 # Laboratory#3a
 
@@ -10,6 +10,7 @@ Dependency:
 3. gazebo-plugins
 4. ROS velodyne-description
 5. ROS map
+
 
 ## 2. Quick comnand for view the robot model of lab3:
 
@@ -24,6 +25,7 @@ The basic command to view the robot model and the moving route in RVIZ is:
 Also, in order to successfully show the map in RVIZ, you show put the map server file under `catkin_ws/src`
 
 **The file named "update_navvis_description_for_lab2.launch" is the updated launch file of lab2, also the git repo of lab2 has been updated too**
+
 
 ## 3.The command to view the robot model of lab 2:
 1. View the robot model using Joint_state_publisher GUI:
@@ -41,7 +43,7 @@ Command for viewing the robot model using XACRO file with joint_state_publisher 
 
 `roslaunch navvis_description navvis_description.launch use_xacro:=true`
 
-Besides, the parameter use_robot_state_publisher` can be used to decide to start robot_state publisher which takes information about joints and
+parameter use_robot_state_publisher` can be used to decide to start robot_state publisher which takes information about joints and
 creates transforms published on the /tf and /tf_static topics or not.
 
 Command for viewing the robot model robot_state_publisher:
