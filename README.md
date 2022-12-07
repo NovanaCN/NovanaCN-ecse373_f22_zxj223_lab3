@@ -12,7 +12,7 @@ Dependency:
 5. ROS map
 
 
-## 2. Quick comnand for view the robot model of lab3:
+## 2. Quick command for view the robot model of lab3:
 
 The basic command to view the robot model and the moving route in RVIZ is:
 
